@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O'zlashtirma ishi</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">O'zlashtirma ish (Ahror Soliyev)</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Asosiy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Qo'shimcha</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main class="pt-5">
+      <div class="container">
+        <div class="display-5 mb-5">
+          18-111 guruh talabsi
+          <span class="text-success">Ahror Soliyev</span>
+          ning O'zlashtirma ishlari.
+        </div>
+        <span class="display-6">Fanlar:</span>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <span>
+                  <span>Mintaqaviy turizm (7)</span>
+                  <span>Asilbek Yulchiyev</span>
+                </span>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ol class="list-group">
+                  <li class="list-group-item">
+                    <a
+                      href="pages/mintaqaviyTurizm/MintaqaviyTurizmVaTuristikResurslarFaniningMaqsadi.html"
+                    >
+                      Mintaqaviy tuizm va turistik resurslar faning maqsadi
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      Mintaqaviy turizmning ijtimoiy-iqtisodiy mazmuni
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">Mintaqalarning turistik resurslari tasnifi</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      Mintaqalarda ekologik turizmni rivojlantirish
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      Mintaqalarda qishloq turizmini rivojlantirish resurslari
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      Turizm industiryasida raqobatbardosh omillar
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="">
+                      Samarqand turistik mintaqasi.
+                    </a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Accordion Item #2
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong>
+                It is hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>
+                , though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Accordion Item #3
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong>
+                It is hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>
+                , though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- javaScript -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
